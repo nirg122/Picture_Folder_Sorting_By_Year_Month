@@ -25,7 +25,7 @@ def move_to_dir(date_to_use):
 folder_name = input('Please enter The folder name: ')
 ######################################################################
 
-directory = f'D:\\Users\\NiR-Home\\Pictures\\{folder_name}'
+directory = f'%UserProfile%\\Pictures\\{folder_name}'
 os.chdir(directory)
 files_moved = 0
 with exiftool.ExifTool() as et:
