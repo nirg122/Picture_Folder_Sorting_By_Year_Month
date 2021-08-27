@@ -25,6 +25,7 @@ def move_to_dir(date_to_use):
 folder_name = input('Please enter The folder name: ')
 ######################################################################
 
+
 directory = f'%UserProfile%\\Pictures\\{folder_name}'
 os.chdir(directory)
 files_moved = 0
